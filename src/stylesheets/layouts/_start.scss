@@ -1,9 +1,51 @@
-.start-container{
-    background-color: $firstBgColor;
-    color: $ligthFontColor;
-    height: 100vh;
+.start-container {
+  background-color: $firstBgColor;
+  color: $ligthFontColor;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20%;
+  padding-bottom: 20%;
 
+  @include forPc {
+    flex-direction: row;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 
-    
+  & .lauraPhoto-container {
+    @include forTablet {
+    }
 
+    @include forPc {
+      margin-top: center;
+      margin-bottom: center;
+    }
+
+    & img {
+      height: 40vh;
+      filter: brightness(1.1);
+
+      @include forTablet {
+        height: 50vh;
+      }
+
+      @include forPc {
+        height: 60vh;
+      }
+    }
+  }
+
+  & .lauraText-container {
+    @include forTablet {
+      margin-top: 100px;
+    }
+
+    @include forPc {
+      margin-top: 0px;
+      margin-left: 200px;
+    }
+  }
 }
