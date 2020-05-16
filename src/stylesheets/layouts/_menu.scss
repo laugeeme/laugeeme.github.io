@@ -1,8 +1,11 @@
 .menu-container {
-  background-color: $firstBgColor;
+  background-color: $menuBgColor;
   color: $ligthFontColor;
   position: fixed;
   width: 100%;
+  -webkit-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
 
   @include forTablet {
   }
@@ -26,8 +29,6 @@
     margin-bottom: 10px;
 
     @include forTablet {
-
-        
     }
 
     @include forPc {
