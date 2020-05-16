@@ -1,12 +1,18 @@
-.app-container{
-    text-align: center;
+.app-container {
+  text-align: center;
 }
 
 .scroll-snapping {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
+  scroll-snap-type: y proximity;
+  overflow: auto;
+  height: 100vh;
+
+  @include forTablet {
+    scroll-snap-type: y mandatory;
+  }
 }
 
 .scroll-area {
   scroll-snap-align: center;
+  height: 100vh;
 }
