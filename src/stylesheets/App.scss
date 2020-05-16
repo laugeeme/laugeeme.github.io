@@ -1,3 +1,10 @@
 @import './base/reset';
 @import './utils/mixins';
 @import './utils/variables';
+@import './layouts/menu';
+@import './layouts/start';
+@import './layouts/about';
+@import './layouts/projects';
+@import './components/projectList';
+@import './components/projectItem';
+@import './layouts/contact';

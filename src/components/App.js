@@ -1,16 +1,34 @@
+/* eslint-disable no-useless-constructor */
 import React from 'react';
 /* import logo from './logo.svg'; */
 import '../stylesheets/App.scss';
+import Menu from './Menu';
+import Start from './Start';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-{/*         <img src={logo} className="App-logo" alt="logo" /> */}
-    hola puedo escribir
-      </header>
-    </div>
-  );
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+    return (
+      <div className="app-container">
+        <Menu />
+        <Start />
+        <About />
+        <Projects />
+        <Contact />
+
+
+          {/*         <img src={logo} className="App-logo" alt="logo" /> */}
+
+      </div>
+    );
+  }
 }
 
 export default App;
