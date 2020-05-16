@@ -1,0 +1,12 @@
+.app-container{
+    text-align: center;
+}
+
+.scroll-snapping {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.scroll-area {
+  scroll-snap-align: center;
+}

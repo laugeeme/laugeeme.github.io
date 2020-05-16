@@ -8,7 +8,6 @@ import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
 
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -18,14 +17,14 @@ class App extends React.Component {
     return (
       <div className="app-container">
         <Menu />
-        <Start />
-        <About />
-        <Projects />
-        <Contact />
+        <div className="scroll-snapping">
+          <Start />
+          <About />
+          <Projects />
+          <Contact />
+        </div>
 
-
-          {/*         <img src={logo} className="App-logo" alt="logo" /> */}
-
+        {/*         <img src={logo} className="App-logo" alt="logo" /> */}
       </div>
     );
   }

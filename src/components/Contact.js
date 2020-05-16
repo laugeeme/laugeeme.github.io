@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
   return (
     <footer>
-      <div className="contact-container">este es el contact container</div>
+      <div className="contact-container scroll-area">este es el contact container</div>
     </footer>
   );
 }

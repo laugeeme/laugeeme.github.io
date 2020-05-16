@@ -6,15 +6,15 @@
 
     @include forPc{
         width: 120px;
+        height: 100vh;
         text-align: right;
-        padding-right:16px;
+        padding-right:10px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         
-        
-        
-        
+     
     }
 
 
@@ -25,11 +25,13 @@
         margin-top: 10px;
         margin-bottom: 10px;
         
+        
 
 
         @include forPc{
             flex-direction: column;
-            
+            border-right: solid 1px $ligthFontColor;
+            padding-right: 10px;
         }
 
         
