@@ -42,16 +42,14 @@
 
   & .lauraText-container {
     font-family: $typewriterFont;
-    margin:100px;
-    
+    margin: 100px;
 
     @include forTablet {
-      
     }
 
     @include forPc {
       margin-left: 250px;
-      margin-right:0px;
+      margin-right: 0px;
       font-size: 40px;
     }
   }

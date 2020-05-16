@@ -1,7 +1,7 @@
 .menu-container {
   background-color: $menuBgColor;
   color: $ligthFontColor;
-  font-family: $mainFont; 
+  font-family: $mainFont;
   font-size: 140%;
   position: fixed;
   width: 100%;
@@ -9,7 +9,6 @@
   -moz-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   opacity: 0.5;
-
 
   @include forTablet {
   }
@@ -22,7 +21,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
   }
 
   & .menu-container_list {
