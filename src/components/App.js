@@ -1,6 +1,5 @@
 /* eslint-disable no-useless-constructor */
 import React from 'react';
-/* import logo from './logo.svg'; */
 import '../stylesheets/App.scss';
 import Menu from './Menu';
 import Start from './Start';
@@ -23,8 +22,6 @@ class App extends React.Component {
           <Projects />
           <Contact />
         </div>
-
-        {/*         <img src={logo} className="App-logo" alt="logo" /> */}
       </div>
     );
   }

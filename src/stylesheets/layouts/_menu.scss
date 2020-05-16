@@ -1,24 +1,28 @@
 .menu-container {
   background-color: $menuBgColor;
   color: $ligthFontColor;
+  font-family: $mainFont; 
+  font-size: 140%;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
+  opacity: 0.5;
+
 
   @include forTablet {
   }
 
   @include forPc {
-    width: 120px;
+    width: 10%;
     height: 100vh;
     text-align: right;
-    padding-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
 
   & .menu-container_list {
@@ -35,6 +39,7 @@
       flex-direction: column;
       border-right: solid 1px $ligthFontColor;
       padding-right: 10px;
+      line-height: 45px;
     }
   }
 }
