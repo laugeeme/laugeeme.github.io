@@ -1,23 +1,22 @@
 import React from 'react';
 
+
 function About() {
   return (
     <section>
       <div className="about-container scroll-area">
         <div className="about-container_text">
-          <h2 className="about-container_title">{'{' + 'About' + '}'}</h2>
+          <h2>&#123;about me&#125;</h2>
           <p>
-            My name is Laura García. I'm an Agricultural Engineer who, being
-            passionate about the world of technology, has decided to reinvent
-            herself as a Front-End programmer to develop all my skills in this
-            field.
+            My name is Laura García. I am a frontend programmer who likes to
+            work with good practices and high attention to detail. Usability and
+            UX are in my constant focus. When I'm not programming you can find
+            me taking pictures, or practicing calligraphy.
           </p>
         </div>
 
         <div className="about-container_skills">
-          <h2 className="about-container_skills__title">
-            {'{' + 'Technical skills' + '}'}
-          </h2>
+          <h2>&#123;technical skills&#125;</h2>
         </div>
       </div>
     </section>

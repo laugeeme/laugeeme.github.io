@@ -1,10 +1,9 @@
 [
     {
         "id": 1,
-        "name": "",
-        "title": "",
-        "img": "",
+        "title": "titulo1",
         "description": "",
+        "img": "",
         "tags": [
             "React",
             "JavaScript",
@@ -18,10 +17,9 @@
     },
     {
         "id": 2,
-        "name": "",
         "title": "",
-        "img": "",
         "description": "",
+        "img": "",
         "tags": [
             "React",
             "JavaScript",
@@ -35,10 +33,9 @@
     },
     {
         "id": 3,
-        "name": "",
         "title": "",
-        "img": "",
         "description": "",
+        "img": "",
         "tags": [
             "React",
             "JavaScript",
@@ -52,10 +49,9 @@
     },
     {
         "id": 4,
-        "name": "",
         "title": "",
-        "img": "",
         "description": "",
+        "img": "",
         "tags": [
             "JavaScript",
             "HTML5",
@@ -68,10 +64,9 @@
     },
     {
         "id": 5,
-        "name": "",
         "title": "",
-        "img": "",
         "description": "",
+        "img": "",
         "tags": [
             "HTML5",
             "CSS3",
