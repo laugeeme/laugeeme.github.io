@@ -2,7 +2,7 @@
   background-color: $menuBgColor;
   color: $ligthFontColor;
   font-family: $mainFont;
-  font-size: 140%;
+  font-size: 20px;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
@@ -11,6 +11,7 @@
   opacity: 0.5;
 
   @include forTablet {
+    font-size: 40px;
   }
 
   @include forPc {
@@ -21,7 +22,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
   }
+
+
+
+
 
   & .menu-container_list {
     display: flex;

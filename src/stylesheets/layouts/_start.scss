@@ -17,6 +17,9 @@
     padding-bottom: 0;
   }
 
+
+
+
   & .lauraPhoto-container {
     @include forTablet {
     }
@@ -53,4 +56,5 @@
       font-size: 40px;
     }
   }
+
 }
