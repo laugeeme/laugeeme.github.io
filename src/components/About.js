@@ -1,5 +1,5 @@
 import React from 'react';
-
+import evolution from '../assets/images/evolution.png';
 
 function About() {
   return (
@@ -17,6 +17,9 @@ function About() {
 
         <div className="about-container_skills">
           <h2>&#123;technical skills&#125;</h2>
+          <div className="about-container_skills__evolution">
+            <img src={evolution} alt="evolution"></img>
+          </div>
         </div>
       </div>
     </section>

@@ -6,8 +6,11 @@ function Projects() {
   return (
     <section>
       <div className="projects-container scroll-area">
-        este es el projects container
+        <div className="projects-container_list">
+        <h2>&#123;projects&#125;</h2>
         <ProjectList data={projects} />
+        </div>
+
         
         </div>
     </section>

@@ -7,8 +7,9 @@ function ProjectItem(props) {
         <img src={props.img} alt={props.title}></img>
       </div>
       <div>
-        <p>{props.title}</p>
-        <ul className="tags">
+        <h4>{props.title}</h4>
+        <p>{props.description}</p>
+        <ul className="projectItem-tags">
           {props.tags.map((tag, index) => (
             <li key={index}>{tag}</li>
           ))}

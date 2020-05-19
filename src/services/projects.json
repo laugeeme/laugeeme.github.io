@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "title": "titulo1",
-        "description": "",
+        "title": "Código heredado con React - Mother Of Code",
+        "description": "Aplicación que bla bla bla bla bla bla badhusd absidfuah ",
         "img": "",
         "tags": [
             "React",
@@ -10,7 +10,7 @@
             "HTML5",
             "CSS3",
             "Sass",
-            "Responsive-design"
+            "Responsive"
         ],
         "url": "",
         "urlGithub": ""
@@ -21,12 +21,7 @@
         "description": "",
         "img": "",
         "tags": [
-            "React",
-            "JavaScript",
-            "HTML5",
-            "CSS3",
-            "Sass",
-            "Responsive-design"
+
         ],
         "url": "",
         "urlGithub": ""
@@ -37,12 +32,7 @@
         "description": "",
         "img": "",
         "tags": [
-            "React",
-            "JavaScript",
-            "HTML5",
-            "CSS3",
-            "Sass",
-            "Responsive-design"
+
         ],
         "url": "",
         "urlGithub": ""
@@ -53,11 +43,7 @@
         "description": "",
         "img": "",
         "tags": [
-            "JavaScript",
-            "HTML5",
-            "CSS3",
-            "Sass",
-            "Responsive-design"
+
         ],
         "url": "",
         "urlGithub": ""
@@ -68,9 +54,7 @@
         "description": "",
         "img": "",
         "tags": [
-            "HTML5",
-            "CSS3",
-            "Responsive-design"
+
         ],
         "url": "",
         "urlGithub": ""

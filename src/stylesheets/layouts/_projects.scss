@@ -1,7 +1,21 @@
-.projects-container{
-    background-color: $thirdBgColor;
-    color: $darkFontColor;
-    height: 100vh;
+.projects-container {
+  background-color: $thirdBgColor;
+  color: $darkFontColor;
+  font-family: $mainFont;
+  height: 100vh;
+  padding-left: 20%;
+  padding-right: 10%;
 
 
+  & .projects-container_list {
+    padding-top: 100px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    
+
+    & h2 {
+      font-size: 26px;
+      text-align: right;
+    }
+  }
 }
