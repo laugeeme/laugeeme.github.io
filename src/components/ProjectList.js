@@ -20,7 +20,7 @@ function ProjectList(props) {
             img={projectObj.img}
             tags={projectObj.tags}
             url={projectObj.url}
-            githubUrl={projectObj.urlGithub}
+            urlGithub={projectObj.urlGithub}
           />
         </li>
 

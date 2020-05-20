@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Código heredado con React - Mother Of Code",
         "description": "Webapp consistente en un generador de tarjetas de visita interactivas que ha sido migrada de JavaScript a React con código heredado.",
-        "img": "https://github.com/laugeeme/laugeeme.github.io/blob/master/src/assets/images/project1.png",
+        "img": "./static/media/project1.png",
         "tags": [
             "React",
             "JavaScript",
@@ -12,30 +12,39 @@
             "Sass",
             "Responsive"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module3-mother_of_code/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module3-mother_of_code"
     },
     {
         "id": 2,
         "title": "Buscador de personajes Rick and Morty con React",
-        "description": "",
-        "img": "",
+        "description": "Desarrollo de una webapp responsive que lista personajes llamados a la API y los filtra por nombre. ",
+        "img": "./static/media/project2.png",
         "tags": [
-
+            "React",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Responsive"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module3-exam-final/#/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module3-exam-final"
     },
     {
         "id": 3,
-        "title": "",
-        "description": "",
-        "img": "",
+        "title": "Awesome Profile Cards - 4Loops",
+        "description": "Generador de tarjetas virtuales realizada con JavaScript y con llamada a la api de twitter.",
+        "img": "./static/media/project3.png",
         "tags": [
-
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Responsive"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module2-4loops/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module2-4loops"
     },
     {
         "id": 4,

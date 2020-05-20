@@ -3,7 +3,7 @@ import React from 'react';
 function ProjectItem(props) {
   return (
     <React.Fragment>
-      <div>
+      <div className="mockup-image">
         <img src={props.img} alt={props.title}></img>
       </div>
       <div>
@@ -11,9 +11,12 @@ function ProjectItem(props) {
         <p>{props.description}</p>
         <ul className="projectItem-tags">
           {props.tags.map((tag, index) => (
-            <li key={index}>{tag}</li>
+            <li key={index}><span></span>{tag}</li>
           ))}
         </ul>
+        <a href={props.url} alt={props.title}>Web</a>        
+        ||
+        <a href={props.urlGithub} alt={props.title}>Code</a>
       </div>
     </React.Fragment>
   );

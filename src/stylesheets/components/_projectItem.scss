@@ -1,16 +1,44 @@
-.projectItem-tags{
-    list-style-type: none;
-    
-    
-    & li {
-    width: 180px;  
+.mockup-image {
+  & img {
+    width: 1000px;
+  }
+}
+
+.projectItem-tags {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  & li {
+    white-space: nowrap;
     height: 50px;
     background-color: black;
     color: white;
     border: solid 2px white;
-    border-radius: 40px;
+    border-radius: 5px;
     margin: 10px;
-    
+    line-height: 40px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-weight: 700;
 
+
+    & span{
+        background-color: #dfcd79;
+        border: 1px solid #ffff;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4), 
+                    0 1px 1px rgba(0, 0, 0, 0.2) inset;
+        display: inline-block;
+        height: 7px;
+        left: -5px;
+        position: relative;
+        top: -1px;
+        vertical-align: middle;
+        width: 7px;
+        z-index: 10;
+        margin-right: 5px;
     }
+  }
 }
