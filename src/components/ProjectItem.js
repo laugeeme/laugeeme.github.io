@@ -2,23 +2,41 @@ import React from 'react';
 
 function ProjectItem(props) {
   return (
-    <React.Fragment>
-      <div className="mockup-image">
+    <div className="projectItem-container">
+      <div className="projectItem-image">
         <img src={props.img} alt={props.title}></img>
       </div>
-      <div>
+      <div className="projectItem-details">
         <h4>{props.title}</h4>
         <p>{props.description}</p>
         <ul className="projectItem-tags">
           {props.tags.map((tag, index) => (
-            <li key={index}><span></span>{tag}</li>
+            <li key={index}>
+              <span></span>
+              {tag}
+            </li>
           ))}
         </ul>
-        <a href={props.url} alt={props.title}>Web</a>        
-        ||
-        <a href={props.urlGithub} alt={props.title}>Code</a>
+        <div className="projectItem-links">
+          <a
+            href={props.url}
+            alt={props.title}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Web
+          </a>
+          <a
+            href={props.urlGithub}
+            alt={props.title}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Code
+          </a>
+        </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 

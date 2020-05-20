@@ -5,54 +5,125 @@
   font-family: $mainFont;
   display: flex;
   flex-direction: column;
-  padding-left: 20%;
-  padding-right: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @include forTablet {
+  }
+
+  @include forPc {
+    padding-left: 20%;
+    padding-right: 10%;
+  }
 
   & .about-container_text {
-    margin-top: 100px;
-    word-spacing: 10px;
-    letter-spacing: 2px;
+    margin-top: 80px;
+
+    @include forTablet {
+      margin-top: 100px;
+    }
+
+    @include forPc {
+      margin-top: 100px;
+    }
 
     & h2 {
-      font-size: 26px;
+      font-size: 20px;
       text-align: right;
+      padding-right: 20px;
+      padding-left: 20px;
+      word-spacing: 10px;
+      letter-spacing: 2px;
+
+      @include forTablet {
+        font-size: 24px;
+      }
+
+      @include forPc {
+        font-size: 26px;
+      }
     }
 
     & p {
       margin-top: 20px;
-      text-indent: 100px;
+      text-indent: 40px;
       text-align: justify;
-      line-height: 30px;
+      line-height: 24px;
+      font-size: 12px;
+      word-spacing: 2px;
+      letter-spacing: 1px;
+      padding-right: 20px;
+      padding-left: 20px;
+
+      @include forTablet {
+        font-size: 16px;
+        word-spacing: 6px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        text-indent: 100px;
+      }
+
+      @include forPc {
+        font-size: 20px;
+        word-spacing: 10px;
+        letter-spacing: 2px;
+        line-height: 30px;
+        text-indent: 100px;
+      }
     }
   }
 
   .about-container_skills {
-    word-spacing: 10px;
-    letter-spacing: 2px;
+    margin-top: 50px;
+
+    @include forTablet {
+      margin-top: 100px;
+    }
+
+    @include forPc {
+      margin-top: 100px;
+    }
 
     & h2 {
-      font-size: 26px;
+      font-size: 20px;
       text-align: right;
-      margin-top: 80px;
+      padding-right: 20px;
+      padding-left: 20px;
+      word-spacing: 10px;
+      letter-spacing: 2px;
+
+      @include forTablet {
+        font-size: 24px;
+      }
+
+      @include forPc {
+        font-size: 26px;
+      }
     }
 
-    & .about-container_skills__evolution{
- 
-        & img {
-          margin-top:220px;
-          margin-left:-500px;
+    & .about-container_skills__evolution {
+      
+      & img {
+        width: 200px;
+        display: inline-block;
+       
+        
+
+
+
+        @include forTablet{
+
         }
 
-   
+
+        @include forPc{
+          margin-top: 220px;
+          margin-left: -500px;
+        }
+
+
+
+      }
     }
-
-
-   
   }
-
-
-
-
 }
-
-

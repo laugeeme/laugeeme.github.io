@@ -1,44 +1,90 @@
-.mockup-image {
-  & img {
-    width: 1000px;
-  }
-}
-
-.projectItem-tags {
-  list-style-type: none;
+.projectItem-container {
+  font-family: $mainFont;
+  font-size: 14px;
   display: flex;
-  flex-wrap: wrap;
-
-  & li {
-    white-space: nowrap;
-    height: 50px;
-    background-color: black;
-    color: white;
-    border: solid 2px white;
-    border-radius: 5px;
-    margin: 10px;
-    line-height: 40px;
-    display: inline-block;
-    padding-left: 15px;
-    padding-right: 10px;
-    font-weight: 700;
+  flex-direction: column;
+  align-content: center;
 
 
-    & span{
-        background-color: #dfcd79;
-        border: 1px solid #ffff;
-        border-radius: 5px 5px 5px 5px;
-        box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4), 
-                    0 1px 1px rgba(0, 0, 0, 0.2) inset;
+  @include forTablet {
+    font-size: 16px;
+  }
+
+  @include forPc {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
+
+  & .projectItem-image {
+      
+    & img {
+      width: 300px;
+
+
+    @include forTablet{
+        width: 800px;
+    }
+
+    @include forPc{
+        width: 1000px;
+    }
+
+
+    }
+  }
+
+  & .projectItem-details {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    .projectItem-tags {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+
+      & li {
+        white-space: nowrap;
+        height: 40px;
+        background-color: black;
+        color: white;
+        border: solid 1px white;
+        border-radius: 5px;
+        margin: 10px;
+        line-height: 40px;
         display: inline-block;
-        height: 7px;
-        left: -5px;
-        position: relative;
-        top: -1px;
-        vertical-align: middle;
-        width: 7px;
-        z-index: 10;
-        margin-right: 5px;
+        padding-left: 15px;
+        padding-right: 10px;
+        font-weight: 600;
+        text-align: right;
+
+        & span {
+          background-color: #dfcd79;
+          border: 1px solid #ffff;
+          border-radius: 5px 5px 5px 5px;
+          box-shadow: 0 1px 1px rgba(255, 255, 255, 0.4),
+            0 1px 1px rgba(0, 0, 0, 0.2) inset;
+          display: inline-block;
+          height: 7px;
+          left: -5px;
+          position: relative;
+          top: -1px;
+          vertical-align: middle;
+          width: 7px;
+          z-index: 10;
+          margin-right: 5px;
+        }
+      }
+    }
+
+    & .projectItem-links {
+      display: flex;
+      justify-content: space-between;
+
+      & a {
+        text-decoration: none;
+      }
     }
   }
 }
