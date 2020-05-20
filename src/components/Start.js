@@ -1,5 +1,5 @@
 import React from 'react';
-import lauraPhoto from '../assets/images/laura1.png';
+import lauraPhoto from '../assets/images/laura.png';
 import Typewriter from './Typewriter';
 
 function Start() {
