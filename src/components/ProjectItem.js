@@ -27,7 +27,7 @@ function ProjectItem(props) {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Link to website
+                website
               </a>
               <a
                 href={props.urlGithub}
@@ -35,7 +35,7 @@ function ProjectItem(props) {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Link to code
+                code
               </a>
             </div>
           </div>

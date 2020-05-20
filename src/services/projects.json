@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "title": "Buscador de personajes Rick and Morty con React",
+        "title": "Buscador de Rick and Morty con React",
         "description": "Desarrollo de una webapp responsive que lista personajes llamados a la API y los filtra por nombre. ",
         "img": "./static/media/project2.png",
         "tags": [

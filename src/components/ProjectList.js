@@ -7,7 +7,7 @@ function ProjectList(props) {
     <>
     
     <ul className="projectlist-container">
-
+      
       {props.data.map((projectObj) => (
 
         <li
