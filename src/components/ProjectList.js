@@ -4,6 +4,8 @@ import ProjectItem from './ProjectItem';
 function ProjectList(props) {
   return (
 
+    <>
+    
     <ul className="projectlist-container">
 
       {props.data.map((projectObj) => (
@@ -27,6 +29,7 @@ function ProjectList(props) {
       ))}
 
     </ul>
+    </>
   );
 }
 
