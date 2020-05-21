@@ -41,6 +41,7 @@
             "HTML5",
             "CSS3",
             "Sass",
+            "Gulp",
             "Responsive"
         ],
         "url": "https://laugeeme.github.io/adalab-module2-4loops/",
@@ -48,24 +49,49 @@
     },
     {
         "id": 4,
-        "title": "",
+        "title": "Tv-show browser",
         "description": "",
-        "img": "",
+        "img": "./static/media/project4.png",
         "tags": [
-
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Gulp"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module2-exam-final/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module2-exam-final"
     },
     {
         "id": 5,
-        "title": "",
+        "title": "Responsive Web Design",
         "description": "",
-        "img": "",
+        "img": "./static/media/project5.png",
         "tags": [
-
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Gulp",
+            "Responsive",
+            "Mobile First"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module1-code_con_code/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module1-code_con_code"
+    },
+    {
+        "id": 6,
+        "title": "Responsive Web Design",
+        "description": "",
+        "img": "./static/media/project6.png",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Gulp",
+            "Responsive",
+            "Mobile First"
+        ],
+        "url": "https://laugeeme.github.io/adalab-module1-exam-final/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module1-exam-final"
     }
 ]
