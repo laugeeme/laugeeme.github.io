@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Proyecto de código heredado con React",
+        "title": "Código heredado con React",
         "description": "Webapp consistente en un generador de tarjetas de visita interactivas que ha sido migrada de JavaScript a React con código heredado.",
         "img": "./static/media/project1.png",
         "tags": [

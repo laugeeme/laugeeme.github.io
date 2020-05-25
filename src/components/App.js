@@ -1,7 +1,6 @@
 /* eslint-disable no-useless-constructor */
 import React from 'react';
 import '../stylesheets/App.scss';
-import { Link, Route, Switch} from 'react-router-dom';
 import Menu from './Menu';
 import Start from './Start';
 import About from './About';
@@ -17,7 +16,7 @@ class App extends React.Component {
     return (
       <div className="app-container">
         <Menu />
-        <div className="scroll-snapping">
+        <div /* className="scroll-snapping" */>
           <Start />
           <About />
           <Projects />

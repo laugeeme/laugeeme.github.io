@@ -1,49 +1,27 @@
 .projects-container {
   background-color: $thirdBgColor;
   color: $darkFontColor;
-  height: 100vh;
-  font-family: $mainFont;
-  padding-left: 20px;
-  padding-right: 20px;
+
+  &:hover .projectItem-container {
+    transform: translateX(-40px);
+  }
 
   @include forTablet {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   @include forPc {
-    padding-left: 12%;
-    padding-right: 8%;
-  }
-
-  & h2 {
-    padding-top: 80px;
-    font-size: 20px;
-    text-align: right;
-    padding-right: 20px;
-    padding-left: 20px;
-    word-spacing: 10px;
-    letter-spacing: 2px;
-
-    @include forTablet {
-      padding-top: 100px;
-      font-size: 24px;
-    }
-
-    @include forPc {
-      padding-top: 100px;
-      font-size: 26px;
-    }
+    padding-left: 18%;
+    padding-right: 5%;
   }
 
   .projectItem-container {
-    font-family: $mainFont;
+    font-family: $menuFont;
     font-size: 14px;
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin-top: 80px;
-
+    margin-top: 0px;
+    transition: transform 0.5s linear;
 
     @include forTablet {
       font-size: 16px;
@@ -60,7 +38,7 @@
         width: 300px;
 
         @include forTablet {
-          width: 800px;
+          width: 700px;
         }
 
         @include forPc {
@@ -74,19 +52,20 @@
       flex-direction: column;
       text-align: left;
 
-
-      @include forTablet{
-        padding-top:100px;
+      @include forTablet {
+        padding-top: 100px;
       }
 
-      @include forPc{
-        padding-top:100px;
-  
+      @include forPc {
+        padding-top: 100px;
+        width: 30%;
       }
 
       & h4 {
         font-size: 18px;
         margin-bottom: 20px;
+        font-family: $mainFont;
+        letter-spacing: 2px;
 
         @include forTablet {
           font-size: 20px;
@@ -103,6 +82,8 @@
         font-size: 16px;
         margin-bottom: 20px;
         text-align: justify;
+        font-family: $mainFont;
+        letter-spacing: 2px;
 
         @include forTablet {
           font-size: 18px;
@@ -112,6 +93,7 @@
         @include forPc {
           font-size: 20px;
           margin-bottom: 30px;
+          padding-right: 5%;
         }
       }
 
@@ -132,11 +114,12 @@
         & li {
           white-space: nowrap;
           height: 40px;
-          background-color:$darkFontColor;
+          font-family: $mainFont;
+          background-color: $darkFontColor;
           color: white;
           border: solid 1px white;
           border-radius: 5px;
-          margin: 0px;
+          margin: 2px;
           line-height: 40px;
           display: inline-block;
           padding-left: 15px;
@@ -144,7 +127,6 @@
           font-weight: 600;
           text-align: right;
           font-size: 14px;
-          
 
           @include forTablet {
             font-size: 16px;
@@ -174,28 +156,48 @@
       & .projectItem-links {
         display: flex;
         justify-content: space-around;
+        margin-top: 10px;
+        font-family: $mainFont;
 
-
-        & a {
-          text-decoration: none;
-          font-size: 14px;
-          font-family: $mainFont;
-          color:$darkFontColor;
-          background-color: #BDCFB8;
-          border: 1px solid $darkFontColor;
-          width: 150px;
-          height: 50px;
+        & .button-link {
+          background-color: #626262;
           text-align: center;
-          padding-top:10px;
-          border-radius:5px;
-         
+          display: inline-block;
+          position: relative;
+          text-decoration: none;
+          color: #fff;
+          text-transform: capitalize;
+          padding: 20px 0px;
+          width: 150px;
+          border-radius: 3px;
+          overflow: hidden;
+          transition: all 0.2s linear 0s;
+          box-shadow: 0 0 5px 0 #1e1f22;
+          border: 1px solid; 
 
-          @include forTablet {
-            font-size: 20px;
+          &:before {
+            content: '🔗';
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            right: -50px;
+            width: 50px;
+            height: 100%;
+            background-color: rgba(#fff, 0.7);
+            transition: all 0.2s linear 0s;
+            text-align: center;
           }
 
-          @include forPc {
-            font-size: 22px;
+          &:hover {
+            text-indent: -50px;
+
+            &:before {
+              right: 0;
+              text-indent: 0px;
+            }
           }
         }
       }

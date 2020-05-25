@@ -3,9 +3,17 @@ import React from 'react';
 function ProjectItem(props) {
   return (
     <article>
-      <div className="projects-container scroll-area">
-        <h2>&#123;projects&#125;</h2>
-        <div className="projectItem-container">
+      <div
+        className="projects-container scroll-area"
+      >
+        <div
+          className="projectItem-container"
+          style={
+            props.id % 2 === 0
+              ? { flexDirection: 'row-reverse' }
+              : { flexDirection: 'row' }
+          }
+        >
           <div className="projectItem-image">
             <img src={props.img} alt={props.title}></img>
           </div>
@@ -26,16 +34,18 @@ function ProjectItem(props) {
                 alt={props.title}
                 rel="noopener noreferrer"
                 target="_blank"
+                className="button-link"
               >
-                website
+                WEB
               </a>
               <a
                 href={props.urlGithub}
                 alt={props.title}
                 rel="noopener noreferrer"
                 target="_blank"
+                className="button-link"
               >
-                code
+                CODE
               </a>
             </div>
           </div>

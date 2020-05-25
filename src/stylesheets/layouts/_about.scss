@@ -2,18 +2,18 @@
   background-color: $secondBgColor;
   color: $darkFontColor;
   height: 100vh;
-  font-family: $mainFont;
   display: flex;
   flex-direction: column;
   padding-left: 20px;
   padding-right: 20px;
+  
 
   @include forTablet {
   }
 
   @include forPc {
     padding-left: 20%;
-    padding-right: 10%;
+    padding-right: 5%;
   }
 
   & .about-container_text {
@@ -29,6 +29,7 @@
 
     & h2 {
       font-size: 20px;
+      font-family: $menuFont;
       text-align: right;
       padding-right: 20px;
       padding-left: 20px;
@@ -37,14 +38,19 @@
 
       @include forTablet {
         font-size: 24px;
+        padding-right: 0px;
+        padding-left: 0px;
       }
 
       @include forPc {
         font-size: 26px;
+        padding-right: 0px;
+        padding-left: 0px;
       }
     }
 
     & p {
+      font-family: $mainFont;
       margin-top: 20px;
       text-indent: 40px;
       text-align: justify;
@@ -61,6 +67,8 @@
         letter-spacing: 2px;
         line-height: 30px;
         text-indent: 100px;
+        padding-right: 0px;
+        padding-left: 0px;
       }
 
       @include forPc {
@@ -86,6 +94,7 @@
 
     & h2 {
       font-size: 20px;
+      font-family: $menuFont;
       text-align: right;
       padding-right: 20px;
       padding-left: 20px;
@@ -94,6 +103,8 @@
 
       @include forTablet {
         font-size: 24px;
+        padding-right: 0px;
+        padding-left: 0px;
       }
 
       @include forPc {
@@ -102,27 +113,17 @@
     }
 
     & .about-container_skills__evolution {
-      
       & img {
         width: 200px;
         display: inline-block;
-       
-        
 
-
-
-        @include forTablet{
-
+        @include forTablet {
         }
 
-
-        @include forPc{
+        @include forPc {
           margin-top: 220px;
           margin-left: -500px;
         }
-
-
-
       }
     }
   }

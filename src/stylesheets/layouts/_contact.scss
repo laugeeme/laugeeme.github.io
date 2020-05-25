@@ -3,4 +3,58 @@
   color: $darkFontColor;
   height: 40vh;
 
+  & .rrss-container {
+    display: flex;
+    justify-content: center;
+
+    & img {
+      width: 150px;
+      margin-top: 150px;
+      margin: 120px;
+    }
+
+    & .static {
+      position: absolute;
+      background-color: $fourthBgColor;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0;
+      }
+    }
+
+    & .rotate {
+      &:hover {
+        animation: bounce 0.8s;
+      }
+      @keyframes bounce {
+        0%,
+        20%,
+        60%,
+        100% {
+          -webkit-transform: translateY(0);
+          transform: translateY(0);
+        }
+
+        40% {
+          -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+        }
+
+        80% {
+          -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+        }
+      }
+    }
+  }
+}
+
+#triangle {
+  border-width: 50px 118px 0 118px;
+  border-color: $thirdBgColor transparent transparent transparent;
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-style: solid;
 }

@@ -1,0 +1,28 @@
+.projects-container_list {
+  background-color: $thirdBgColor;
+
+  & h2 {
+    font-size: 20px;
+    font-family: $menuFont;
+    text-align: right;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    padding-top: 80px;
+    right: 5%;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    @include forTablet {
+      font-size: 24px;
+      padding-top: 100px;
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    @include forPc {
+      font-size: 26px;
+      padding-right: 5%;
+      margin-bottom: 80px;
+    }
+  }
+}
