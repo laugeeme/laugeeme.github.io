@@ -4,9 +4,7 @@
   padding-left: 20px;
   padding-right: 20px;
 
-  &:hover .projectItem-container {
-    transform: translateX(-40px);
-  }
+  
 
   @include forTablet {
     padding-top: 10vh;
@@ -15,6 +13,11 @@
   @include forPc {
     padding-left: 18%;
     padding-right: 5%;
+
+    &:hover .projectItem-container {
+      transform: translateX(-40px);
+    }
+
   }
 
   & .projects-title {
@@ -49,17 +52,19 @@
   .projectItem-container {
     font-family: $menuFont;
     font-size: 14px;
-    transition: transform 0.5s linear;
+    
 
     @include forTablet {
       font-size: 16px;
       padding-left: 30px;
       padding-right: 30px;
+      transition: transform 0.5s linear;
     }
 
     @include forPc {
       font-size: 20px;
       padding-top: 100px;
+      transition: transform 0.5s linear;
     }
 
     & .projectItem-image {
