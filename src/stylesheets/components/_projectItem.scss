@@ -53,6 +53,8 @@
 
     @include forTablet {
       font-size: 16px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
 
     @include forPc {
@@ -81,7 +83,7 @@
       padding-top: 50px;
 
       @include forTablet {
-        padding-top: 100px;
+        padding-top: 60px;
       }
 
       @include forPc {
