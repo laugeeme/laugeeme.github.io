@@ -7,6 +7,11 @@
   overflow: auto;
   height: 100vh;
 
+  &::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+  }
+
   @include forTablet {
     scroll-snap-type: y mandatory;
   }
@@ -15,5 +20,4 @@
 .scroll-area {
   scroll-snap-align: center;
   height: 100vh;
-
 }

@@ -4,31 +4,22 @@ $menuBgColor: #29292c;
 
 $firstBgColor: #29292c;
 $secondBgColor: #ce757b;
-$thirdBgColor: #dfcd79;
-$fourthBgColor: #e7e4d0;
+$thirdBgColor: #fdf8ed;
+$fourthBgColor: #dfcd79;
 
-$ligthFontColor: $fourthBgColor;
+/* $firstBgColor: #29292c;
+$secondBgColor: #ce757b;
+$thirdBgColor: #dfcd79;
+$fourthBgColor: #fdf8ed; */
+
+$ligthFontColor: $thirdBgColor;
 $darkFontColor: $firstBgColor;
 
 //TYPOGRAPHY
 
-$mainFont: droid;
+$mainFont: montserrat;
+$menuFont: droid;
 $typewriterFont: droid;
-
-@font-face {
-  src: url(../../assets/fonts/Anonymous_Pro.ttf);
-  font-family: anonymous;
-}
-
-@font-face {
-  src: url(../../assets/fonts/MonospaceTypewriter.ttf);
-  font-family: monospaceTypewriter;
-}
-
-@font-face {
-  src: url(../../assets/fonts/VeraMono.ttf);
-  font-family: veraMono;
-}
 
 @font-face {
   src: url(../../assets/fonts/DroidSansMono.ttf);
@@ -36,7 +27,6 @@ $typewriterFont: droid;
 }
 
 @font-face {
-    src: url(../../assets/fonts/Envy_Code_R.ttf);
-    font-family: envycode;
-  }
-
+  src: url(../../assets/fonts/Montserrat-Regular.ttf);
+  font-family: montserrat;
+}

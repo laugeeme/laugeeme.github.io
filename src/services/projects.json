@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "title": "Código heredado con React - Mother Of Code",
-        "description": "Aplicación que bla bla bla bla bla bla badhusd absidfuah ",
-        "img": "",
+        "title": "Legacy code with React",
+        "description": "Webapp consisting of an interactive business card generator that has been migrated from JavaScript to React with legacy code.",
+        "img": "./static/media/project1.png",
         "tags": [
             "React",
             "JavaScript",
@@ -12,51 +12,86 @@
             "Sass",
             "Responsive"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module3-mother_of_code/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module3-mother_of_code"
     },
     {
         "id": 2,
-        "title": "",
-        "description": "",
-        "img": "",
+        "title": "Rick and Morty browser with React",
+        "description": "Development of a responsive webapp that lists characters with API call, and filters them by name.",
+        "img": "./static/media/project2.png",
         "tags": [
-
+            "React",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Responsive"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module3-exam-final/#/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module3-exam-final"
     },
     {
         "id": 3,
-        "title": "",
-        "description": "",
-        "img": "",
+        "title": "Awesome Profile Cards",
+        "description": "Virtual card generator for sharing on Twitter. Made with JavaScript and API call.",
+        "img": "./static/media/project3.png",
         "tags": [
-
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Gulp",
+            "Responsive"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module2-4loops/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module2-4loops"
     },
     {
         "id": 4,
-        "title": "",
-        "description": "",
-        "img": "",
+        "title": "Tv-show search engine",
+        "description": "Search engine with API call that lists your tv-shows so you can add or delete from your favourites",
+        "img": "./static/media/project4.png",
         "tags": [
-
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Gulp"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module2-exam-final/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module2-exam-final"
     },
     {
         "id": 5,
-        "title": "",
-        "description": "",
-        "img": "",
+        "title": "Responsive Web Design",
+        "description": "Responsive website following the design in Zeplin. Layout and creation of a form using Sass and Gulp for task automation.",
+        "img": "./static/media/project5.png",
         "tags": [
-
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Gulp",
+            "Responsive",
+            "Mobile First"
         ],
-        "url": "",
-        "urlGithub": ""
+        "url": "https://laugeeme.github.io/adalab-module1-code_con_code/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module1-code_con_code"
+    },
+    {
+        "id": 6,
+        "title": "Responsive Web Design",
+        "description": "Responsive website following the design in Zeplin. Using Sass and Gulp for task automation",
+        "img": "./static/media/project6.png",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "Sass",
+            "Gulp",
+            "Responsive",
+            "Mobile First"
+        ],
+        "url": "https://laugeeme.github.io/adalab-module1-exam-final/",
+        "urlGithub": "https://github.com/laugeeme/adalab-module1-exam-final"
     }
 ]

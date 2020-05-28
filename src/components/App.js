@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <div className="app-container">
         <Menu />
-        <div className="scroll-snapping">
+        <div /* className="scroll-snapping" */>
           <Start />
           <About />
           <Projects />

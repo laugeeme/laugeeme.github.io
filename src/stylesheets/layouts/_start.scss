@@ -1,24 +1,60 @@
 .start-container {
-  background-color: $firstBgColor;
   color: $ligthFontColor;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 40%;
-  padding-bottom: 20%;
 
-  @include forPc {
-    flex-direction: row;
-    padding-left: 20%;
-    padding-right: 20%;
-    align-content: center;
-    padding-top: 0;
-    padding-bottom: 0;
+  //fondo imagen
+  background-image: url(../../assets/images/backgrounds/startBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include forTablet {
   }
 
+  @include forPc {
+  }
 
+  & h2 {
+    font-size: 20px;
+    font-family: $menuFont;
+    text-align: right;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    position: absolute;
+    padding-top: 80px;
+    right: 5%;
 
+    @include forTablet {
+      font-size: 24px;
+      padding-top: 100px;
+    }
+
+    @include forPc {
+      font-size: 26px;
+      padding-left: 20%;
+      padding-top: 100px;
+    }
+  }
+
+  & .start-container_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100vh;
+    padding-top: 45%;
+
+    @include forTablet {
+      padding-top: 30%;
+    }
+
+    @include forPc {
+      flex-direction: row;
+      padding-left: 15%;
+      padding-right: 10%;
+      padding-top: 0%;
+    }
+  }
 
   & .lauraPhoto-container {
     @include forTablet {
@@ -45,16 +81,19 @@
 
   & .lauraText-container {
     font-family: $typewriterFont;
-    margin: 100px;
+    margin: 60px;
+    font-size: 22px;
+    color: $thirdBgColor;
 
     @include forTablet {
+      font-size: 30px;
     }
 
     @include forPc {
       margin-left: 250px;
       margin-right: 0px;
+      margin:100px;
       font-size: 40px;
     }
   }
-
 }
