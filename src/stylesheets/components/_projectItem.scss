@@ -1,6 +1,8 @@
 .projects-container {
   color: $darkFontColor;
   padding-top: 10vh;
+  padding-left: 20px;
+  padding-right: 20px;
 
   &:hover .projectItem-container {
     transform: translateX(-40px);
@@ -39,7 +41,7 @@
       font-size: 26px;
       padding-right: 0px;
       padding-left: 0px;
-      bottom: 10vh;
+
       margin-top: 100px;
     }
   }
@@ -47,8 +49,6 @@
   .projectItem-container {
     font-family: $menuFont;
     font-size: 14px;
-    display: flex;
-    flex-direction: column;
     transition: transform 0.5s linear;
 
     @include forTablet {
@@ -56,9 +56,8 @@
     }
 
     @include forPc {
-      display: flex;
-      flex-direction: row;
       font-size: 20px;
+      padding-top: 100px;
     }
 
     & .projectItem-image {
@@ -79,6 +78,7 @@
       display: flex;
       flex-direction: column;
       text-align: left;
+      padding-top: 50px;
 
       @include forTablet {
         padding-top: 100px;
@@ -252,5 +252,34 @@
         }
       }
     }
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  background-color: $thirdBgColor;
+
+  @include forTablet {
+  }
+
+  @include forPc {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.row-reverse {
+  display: flex;
+  flex-direction: column;
+  background-color: $firstBgColor;
+  color: $ligthFontColor;
+
+  @include forTablet {
+  }
+
+  @include forPc {
+    display: flex;
+    flex-direction: row-reverse;
   }
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function ProjectItem(props) {
   return (
     <article>
@@ -8,7 +7,7 @@ function ProjectItem(props) {
         className="projects-container scroll-area"
         style={
           props.id % 2 === 0
-            ? { backgroundColor: '#29292c', color: '#fdf8ed'}
+            ? { backgroundColor: '#29292c', color: '#fdf8ed' }
             : { backgroundColor: '#fdf8ed' }
         }
       >
@@ -17,13 +16,12 @@ function ProjectItem(props) {
         ) : (
           ''
         )}
+
         <div
-          className="projectItem-container"
-          style={
-            props.id % 2 === 0
-              ? { flexDirection: 'row-reverse' }
-              : { flexDirection: 'row' }
+          className={`projectItem-container${
+            props.id % 2 === 0 ? ' row-reverse' : ' row'
           }
+          `}
         >
           <div className="projectItem-image">
             <img src={props.img} alt={props.title}></img>
