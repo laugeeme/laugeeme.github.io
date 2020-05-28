@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import lauraPhoto from '../assets/images/laura.png';
 import Typewriter from './Typewriter';
 

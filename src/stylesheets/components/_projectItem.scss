@@ -1,12 +1,13 @@
 .projects-container {
-  background-color: $thirdBgColor;
   color: $darkFontColor;
+  padding-top: 10vh;
 
   &:hover .projectItem-container {
     transform: translateX(-40px);
   }
 
   @include forTablet {
+    padding-top: 10vh;
   }
 
   @include forPc {
@@ -14,13 +15,40 @@
     padding-right: 5%;
   }
 
+  & .projects-title {
+    position: relative;
+    font-size: 20px;
+    font-family: $menuFont;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    bottom: 10vh;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    margin-top: 60px;
+
+    @include forTablet {
+      font-size: 24px;
+      padding-right: 0px;
+      padding-left: 0px;
+      bottom: 10vh;
+      margin-top: 100px;
+    }
+
+    @include forPc {
+      font-size: 26px;
+      padding-right: 0px;
+      padding-left: 0px;
+      bottom: 10vh;
+      margin-top: 100px;
+    }
+  }
+
   .projectItem-container {
     font-family: $menuFont;
     font-size: 14px;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    margin-top: 0px;
     transition: transform 0.5s linear;
 
     @include forTablet {
@@ -62,7 +90,7 @@
       }
 
       & h4 {
-        font-size: 18px;
+        font-size: 16px;
         margin-bottom: 20px;
         font-family: $mainFont;
         letter-spacing: 2px;
@@ -73,13 +101,13 @@
         }
 
         @include forPc {
-          font-size: 22px;
+          font-size: 28px;
           margin-bottom: 30px;
         }
       }
 
       & p {
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 20px;
         text-align: justify;
         font-family: $mainFont;
@@ -91,7 +119,7 @@
         }
 
         @include forPc {
-          font-size: 20px;
+          font-size: 22px;
           margin-bottom: 30px;
           padding-right: 5%;
         }
@@ -113,31 +141,35 @@
 
         & li {
           white-space: nowrap;
-          height: 40px;
+          height: 30px;
           font-family: $mainFont;
-          background-color: $darkFontColor;
+          background-color: #626262;
           color: white;
           border: solid 1px white;
-          border-radius: 5px;
-          margin: 2px;
-          line-height: 40px;
+          border-radius: 2px;
+          margin: 5px;
+          line-height: 30px;
           display: inline-block;
           padding-left: 15px;
           padding-right: 10px;
-          font-weight: 600;
+          font-weight: 500;
           text-align: right;
-          font-size: 14px;
+          font-size: 12px;
 
           @include forTablet {
             font-size: 16px;
+            height: 40px;
+            line-height: 40px;
           }
 
           @include forPc {
             font-size: 18px;
+            height: 40px;
+            line-height: 40px;
           }
 
           & span {
-            background-color: #dfcd79;
+            background-color: #ffff;
             border: 1px solid #ffff;
             border-radius: 5px 5px 5px 5px;
             display: inline-block;
@@ -156,24 +188,42 @@
       & .projectItem-links {
         display: flex;
         justify-content: space-around;
-        margin-top: 10px;
         font-family: $mainFont;
+        font-size: 14px;
+
+        @include forTablet {
+          font-size: 16px;
+        }
+
+        @include forPc {
+          font-size: 20px;
+        }
 
         & .button-link {
-          background-color: #626262;
+          background-color: $darkFontColor;
           text-align: center;
           display: inline-block;
           position: relative;
           text-decoration: none;
           color: #fff;
           text-transform: capitalize;
-          padding: 20px 0px;
-          width: 150px;
+          padding: 10px 0px;
+          width: 100px;
           border-radius: 3px;
           overflow: hidden;
           transition: all 0.2s linear 0s;
           box-shadow: 0 0 5px 0 #1e1f22;
-          border: 1px solid; 
+          border: 1px solid;
+
+          @include forTablet {
+            width: 150px;
+            padding: 20px 0px;
+          }
+
+          @include forPc {
+            width: 150px;
+            padding: 20px 0px;
+          }
 
           &:before {
             content: '🔗';
@@ -186,7 +236,7 @@
             right: -50px;
             width: 50px;
             height: 100%;
-            background-color: rgba(#fff, 0.7);
+            background-color: #fff;
             transition: all 0.2s linear 0s;
             text-align: center;
           }

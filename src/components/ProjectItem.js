@@ -1,11 +1,22 @@
 import React from 'react';
 
+
 function ProjectItem(props) {
   return (
     <article>
       <div
         className="projects-container scroll-area"
+        style={
+          props.id % 2 === 0
+            ? { backgroundColor: '#29292c', color: '#fdf8ed'}
+            : { backgroundColor: '#fdf8ed' }
+        }
       >
+        {props.id === 1 ? (
+          <h2 className="projects-title">&#123;projects&#125;</h2>
+        ) : (
+          ''
+        )}
         <div
           className="projectItem-container"
           style={

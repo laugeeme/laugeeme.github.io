@@ -3,16 +3,16 @@
 $menuBgColor: #29292c;
 
 $firstBgColor: #29292c;
-$secondBgColor: #ca888e;
-$thirdBgColor: #fddc46;
-$fourthBgColor: #a5e4bf;
+$secondBgColor: #ce757b;
+$thirdBgColor: #fdf8ed;
+$fourthBgColor: #dfcd79;
 
 /* $firstBgColor: #29292c;
 $secondBgColor: #ce757b;
 $thirdBgColor: #dfcd79;
-$fourthBgColor: #e7e4d0; */
+$fourthBgColor: #fdf8ed; */
 
-$ligthFontColor: $fourthBgColor;
+$ligthFontColor: $thirdBgColor;
 $darkFontColor: $firstBgColor;
 
 //TYPOGRAPHY
@@ -27,35 +27,6 @@ $typewriterFont: droid;
 }
 
 @font-face {
-  src: url(../../assets/fonts/VeraMono.ttf);
-  font-family: veraMono;
-}
-
-@font-face {
-  src: url(../../assets/fonts/LEMONMILK-Light.otf);
-  font-family: lemonMilk;
-}
-@font-face {
   src: url(../../assets/fonts/Montserrat-Regular.ttf);
   font-family: montserrat;
-}
-
-@font-face {
-  src: url(../../assets/fonts/Raleway-Regular.ttf);
-  font-family: raleway;
-}
-
-@font-face {
-  src: url(../../assets/fonts/WorkSans-VariableFont_wght.ttf);
-  font-family: work;
-}
-
-@font-face {
-  src: url(../../assets/fonts/Gotham-Thin.ttf);
-  font-family: gothamT;
-}
-
-@font-face {
-  src: url(../../assets/fonts/Gilroy-Light.otf);
-  font-family: gilroy;
 }

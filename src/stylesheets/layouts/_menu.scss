@@ -1,8 +1,8 @@
 .menu-container {
   background-color: $menuBgColor;
-  color: white;
+  color: $ligthFontColor;
   font-family: $menuFont;
-  font-size: 20px;
+  font-size: 16px;
   position: fixed;
   width: 100%;
   -webkit-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
@@ -43,7 +43,7 @@
     }
   }
 
-  & .menu-container_list__item{
+  & .menu-container_list__item {
     display: block;
     position: relative;
     z-index: 99;
@@ -51,7 +51,6 @@
     &:first-child a {
       border-right: 10px solid black;
       padding-right: 5px;
-      
     }
     &:nth-child(2) a {
       border-right: 10px solid $secondBgColor;
@@ -65,14 +64,8 @@
       border-right: 10px solid $fourthBgColor;
       padding-right: 5px;
     }
-
-
-
-
   }
 }
-
-
 
 nav li a:after {
   content: '';
@@ -87,8 +80,7 @@ nav li a:after {
   opacity: 0.3;
 }
 
-
-nav li a:active{
+nav li a:active {
   border-bottom: white 2px solid;
 }
 

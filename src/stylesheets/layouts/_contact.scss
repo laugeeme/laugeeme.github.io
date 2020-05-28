@@ -1,60 +1,141 @@
 .contact-container {
   background-color: $fourthBgColor;
-  color: $darkFontColor;
-  height: 40vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
 
-  & .rrss-container {
+  @include forTablet {
+    height: 60vh;
+  }
+
+  @include forPc {
+    height: 50vh;
+  }
+
+  & h2 {
+    font-size: 20px;
+    font-family: $menuFont;
+    text-align: right;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    position: absolute;
+    padding-top: 50px;
+    right: 5%;
+
+    @include forTablet {
+      font-size: 24px;
+      padding-top: 100px;
+    }
+
+    @include forPc {
+      font-size: 26px;
+      padding-left: 20%;
+      padding-top: 100px;
+    }
+  }
+
+  & .contact-container_contact {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
 
-    & img {
-      width: 150px;
-      margin-top: 150px;
-      margin: 120px;
+    @include forTablet{
+      padding-top: 15vh;
     }
 
-    & .static {
-      position: absolute;
-      background-color: $fourthBgColor;
-      cursor: pointer;
 
-      &:hover {
-        opacity: 0;
+    @include forPc{
+      padding-top: 10vh;
+    }
+
+    & .contact-container_title {
+      font-family: $mainFont;
+      font-size: 36px;
+      padding-bottom: 30px;
+      padding-top: 40px;
+
+      @include forTablet {
+        font-size: 46px;
+      }
+
+      @include forPc {
+        font-size: 56px;
+        
       }
     }
 
-    & .rotate {
-      &:hover {
-        animation: bounce 0.8s;
+    & .rrss-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      & img {
+        width: 50px;
+        margin: 10px;
+
+        @include forTablet {
+          width: 60px;
+          margin: 20px;
+        }
+
+        @include forPc {
+          width: 90px;
+          margin: 30px;
+        }
       }
-      @keyframes bounce {
-        0%,
-        20%,
-        60%,
-        100% {
-          -webkit-transform: translateY(0);
-          transform: translateY(0);
-        }
 
-        40% {
-          -webkit-transform: translateY(-30px);
-          transform: translateY(-30px);
-        }
+      & .static {
+        position: absolute;
+        background-color: $fourthBgColor;
+        cursor: pointer;
 
-        80% {
-          -webkit-transform: translateY(-20px);
-          transform: translateY(-20px);
+        &:hover {
+          opacity: 0;
+        }
+      }
+
+      & .rotate {
+        &:hover {
+          animation: bounce 0.8s;
+        }
+        @keyframes bounce {
+          0%,
+          20%,
+          60%,
+          100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+          }
+
+          40% {
+            -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+          }
+
+          80% {
+            -webkit-transform: translateY(-20px);
+            transform: translateY(-20px);
+          }
         }
       }
     }
   }
-}
 
-#triangle {
-  border-width: 50px 118px 0 118px;
-  border-color: $thirdBgColor transparent transparent transparent;
-  width: 0;
-  height: 0;
-  position: absolute;
-  border-style: solid;
+  & .contact-container_copy {
+    padding-top: 130px;
+    font-family: $mainFont;
+    font-size: 14px;
+
+    @include forTablet {
+      padding-top: 40px;
+      font-size: 20px;
+    }
+
+    @include forPc {
+      padding-top: 50px;
+      font-size: 18px;
+    }
+  }
 }
