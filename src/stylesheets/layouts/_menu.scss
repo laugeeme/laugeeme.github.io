@@ -8,7 +8,7 @@
   -webkit-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
   box-shadow: 4px 0px 10px -5px rgba(0, 0, 0, 0.75);
-  
+  z-index: 99;
 
   @include forTablet {
     font-size: 40px;
@@ -46,7 +46,7 @@
   & .menu-container_list__item {
     display: block;
     position: relative;
-    z-index: 99;
+    
 
     &:first-child a {
       border-right: 10px solid black;
