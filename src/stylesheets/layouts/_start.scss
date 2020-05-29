@@ -1,8 +1,6 @@
 .start-container {
   color: $ligthFontColor;
   height: 100vh;
-
-  //fondo imagen
   background-image: url(../../assets/images/backgrounds/startBg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,24 +12,21 @@
   }
 
   & h2 {
-    font-size: 20px;
+    font-size: 1rem;
     font-family: $menuFont;
     text-align: right;
     word-spacing: 10px;
     letter-spacing: 2px;
-    position: absolute;
-    padding-top: 80px;
-    right: 5%;
+    padding-right: 8vw;
+    padding-top: 10vh;
 
     @include forTablet {
-      font-size: 24px;
-      padding-top: 100px;
+      font-size: 1.5rem;
+      padding-top: 8vh;
     }
 
     @include forPc {
-      font-size: 26px;
-      padding-left: 20%;
-      padding-top: 100px;
+      font-size: 1.5rem;
     }
   }
 
@@ -39,61 +34,55 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 20vw;
+    padding-right: 20vw;
     height: 100vh;
-    padding-top: 45%;
+    padding-top: 12vh;
 
     @include forTablet {
-      padding-top: 30%;
+      padding-top: 12vh;
     }
 
     @include forPc {
       flex-direction: row;
-      padding-left: 15%;
-      padding-right: 10%;
-      padding-top: 0%;
+      padding-left: 18vw;
+      padding-right: 14vw;
+      padding-top: 0;
+      padding-bottom: 10vh;
     }
   }
 
   & .lauraPhoto-container {
-    @include forTablet {
-    }
-
-    @include forPc {
-      margin-top: center;
-      margin-bottom: center;
-    }
-
     & img {
       height: 40vh;
       filter: brightness(1.1);
 
       @include forTablet {
-        height: 50vh;
+        height: 40vh;
       }
 
       @include forPc {
-        height: 60vh;
+        height: 50vh;
       }
     }
   }
 
   & .lauraText-container {
     font-family: $typewriterFont;
-    margin: 60px;
-    font-size: 22px;
+    padding-top: 5vh;
+    font-size: 1rem;
     color: $thirdBgColor;
 
     @include forTablet {
-      font-size: 30px;
+      font-size: 1.5rem;
+      padding-top: 8vh;
     }
 
     @include forPc {
-      margin-left: 250px;
-      margin-right: 0px;
-      margin:100px;
-      font-size: 40px;
+      margin-left: 15vw;
+      margin-right: 0;
+      font-size: 2rem;
+      padding-top: 0;
     }
   }
 }
