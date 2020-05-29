@@ -18,7 +18,7 @@ function About() {
         <div className="about-container_text">
           <h2>&#123;about me&#125;</h2>
           <p>
-            My name is Laura García. I'm a{' '}
+            I am a{' '}
             <span className="underline">frontend programmer</span> who likes to
             work with <span className="underline">good practices</span> and high
             attention to <span className="underline">detail.</span> Usability
