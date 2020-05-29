@@ -22,12 +22,12 @@
       letter-spacing: 2px;
 
       @include forTablet {
-        font-size: 1.5rem;
+        font-size: 1rem;
         padding-top: 8vh;
       }
 
       @include forPc {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
       }
     }
 
@@ -87,11 +87,11 @@
         letter-spacing: 2px;
 
         @include forTablet {
-          font-size: 1.5rem;
+          font-size: 1rem;
         }
 
         @include forPc {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
       }
     }
