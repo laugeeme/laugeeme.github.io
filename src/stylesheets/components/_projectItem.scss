@@ -69,14 +69,14 @@
 
     & .projectItem-image {
       & img {
-        width: 300px;
+        width: 70%;
 
         @include forTablet {
-          width: 700px;
+          width: 70%;
         }
 
         @include forPc {
-          width: 1000px;
+          width: 90%;
         }
       }
     }

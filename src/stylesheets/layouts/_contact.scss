@@ -1,6 +1,6 @@
 .contact-container {
   background-color: $fourthBgColor;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 
@@ -9,28 +9,25 @@
   }
 
   @include forPc {
-    height: 50vh;
+    height: 55vh;
   }
 
   & h2 {
-    font-size: 20px;
+    font-size: 1rem;
     font-family: $menuFont;
     text-align: right;
     word-spacing: 10px;
     letter-spacing: 2px;
-    position: absolute;
-    padding-top: 50px;
-    right: 5%;
+    padding-right: 8vw;
+    padding-top: 10vh;
 
     @include forTablet {
-      font-size: 24px;
-      padding-top: 100px;
+      font-size: 1.5rem;
+      padding-top: 8vh;
     }
 
     @include forPc {
-      font-size: 26px;
-      padding-left: 20%;
-      padding-top: 100px;
+      font-size: 1.5rem;
     }
   }
 
@@ -39,40 +36,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 20vh;
+    padding-top: 8vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
 
-    @include forTablet{
-      padding-top: 15vh;
+    @include forTablet {
+      padding-top: 8vh;
     }
 
-
-    @include forPc{
-      padding-top: 10vh;
+    @include forPc {
+      padding-top: 5vh;
     }
 
     & .contact-container_title {
       font-family: $mainFont;
-      font-size: 36px;
-      padding-bottom: 30px;
-      padding-top: 40px;
+      font-size: 1.6rem;
+      padding-bottom: 5vh;
+      padding-top: 8vh;
 
       @include forTablet {
-        font-size: 46px;
+        font-size: 2rem;
+        padding-top: 3vh;
       }
 
       @include forPc {
-        font-size: 56px;
-        
+        font-size: 2.8rem;
+        padding-top: 0vh;
       }
     }
 
     & .rrss-container {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      padding-left: 20vw;
+      padding-right: 20vw;
 
       & img {
-        width: 50px;
+        width: 40px;
         margin: 10px;
 
         @include forTablet {
@@ -81,7 +80,7 @@
         }
 
         @include forPc {
-          width: 70px;
+          width: 60px;
           margin: 30px;
         }
       }
@@ -124,18 +123,18 @@
   }
 
   & .contact-container_copy {
-    padding-top: 130px;
+    padding-top: 10vh;
     font-family: $mainFont;
-    font-size: 14px;
+    font-size: 0.7rem;
 
     @include forTablet {
-      padding-top: 40px;
-      font-size: 20px;
+      padding-top: 9vh;
+      font-size: 0.9rem;
     }
 
     @include forPc {
-      padding-top: 50px;
-      font-size: 18px;
+      padding-top: 6vh;
+      font-size: 1rem;
     }
   }
 }

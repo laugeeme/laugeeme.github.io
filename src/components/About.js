@@ -78,7 +78,7 @@ function About() {
             </ul>
 
             <div className="about-container_skills__evolution">
-              <img src={evolution} alt="evolution"></img>
+              <img src={evolution} alt="Evolution"></img>
             </div>
           </div>
         </div>

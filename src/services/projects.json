@@ -81,7 +81,7 @@
     {
         "id": 6,
         "title": "Responsive Web Design",
-        "description": "Responsive website following the design in Zeplin. Using Sass and Gulp for task automation",
+        "description": "Responsive website following the design in Zeplin. Using Sass and Gulp for task automation.",
         "img": "./static/media/project6.png",
         "tags": [
             "HTML5",
