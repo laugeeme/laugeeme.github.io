@@ -18,13 +18,13 @@ function About() {
         <div className="about-container_text">
           <h2>&#123;about me&#125;</h2>
           <p>
-            I am a{' '}
-            <span className="underline">frontend programmer</span> who likes to
-            work with <span className="underline">good practices</span> and high
-            attention to <span className="underline">detail.</span> Usability
-            and UX are in my <span className="underline">constant focus</span>.
-            When I'm not programming you can find me taking pictures, or
-            practicing calligraphy.
+            I am a <span className="underline">frontend programmer</span> who
+            likes to work with <span className="underline">good practices</span>{' '}
+            and high attention to <span className="underline">detail.</span>{' '}
+            Usability and UX are in my{' '}
+            <span className="underline">constant focus</span>. When I'm not
+            programming you can find me taking pictures, or practicing
+            calligraphy.
           </p>
         </div>
 
@@ -85,11 +85,18 @@ function About() {
 
         <div className="about-container_cv">
           <a
-            href="./static/media/CVLauraG.pdf"
-            download="CV_LauraGM"
-            alt="CV Laura"
+            href="./static/media/CVLauraG-en.pdf"
+            download="CV_LauraG"
+            alt="CV Laura english"
           >
-            Download my CV
+            English CV
+          </a>
+          <a
+            href="./static/media/CVLauraG-es.pdf"
+            download="CV_LauraG"
+            alt="CV Laura spanish"
+          >
+            Spanish CV
           </a>
         </div>
       </div>
