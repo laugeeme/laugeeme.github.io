@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "title": "Legacy code with React",
-        "description": "Webapp consisting of an interactive business card generator that has been migrated from JavaScript to React with legacy code.",
+        "title": "Adaptation of legacy code to React",
+        "description": "Web application migration to React with legacy code. Increasing the user experience with a dark mode and adding multimedia elements.",
         "img": "./static/media/project1.png",
         "tags": [
             "React",
@@ -17,8 +17,8 @@
     },
     {
         "id": 2,
-        "title": "Rick and Morty browser with React",
-        "description": "Development of a responsive webapp that lists characters with API call, and filters them by name.",
+        "title": "Frontal search engine on API",
+        "description": "Development of a web application with React, API requests, filtering, and react-router links.",
         "img": "./static/media/project2.png",
         "tags": [
             "React",
@@ -33,8 +33,8 @@
     },
     {
         "id": 3,
-        "title": "Awesome Profile Cards",
-        "description": "Virtual card generator for sharing on Twitter. Made with JavaScript and API call.",
+        "title": "Virtual business card creator",
+        "description": "Development of a web application with first mobile. Use and validation of forms. Use of a third party library to interact with the webcam. Generation through API of a business card to share.",
         "img": "./static/media/project3.png",
         "tags": [
             "JavaScript",
@@ -49,8 +49,8 @@
     },
     {
         "id": 4,
-        "title": "Tv-show search engine",
-        "description": "Search engine with API call that lists your tv-shows so you can add or delete from your favourites",
+        "title": "Frontal search engine on API",
+        "description": "Creation of a web application to interact with a third party API and use LocalStorage as a persistence layer. Implement bookmarks logic with JavaScript.",
         "img": "./static/media/project4.png",
         "tags": [
             "JavaScript",
@@ -65,7 +65,7 @@
     {
         "id": 5,
         "title": "Responsive Web Design",
-        "description": "Responsive website following the design in Zeplin. Layout and creation of a form using Sass and Gulp for task automation.",
+        "description": "Creation of a responsive web with HTML and CSS, using Sass, version control and agile-scrum philosophy.",
         "img": "./static/media/project5.png",
         "tags": [
             "HTML5",
@@ -80,7 +80,7 @@
     },
     {
         "id": 6,
-        "title": "Responsive Web Design",
+        "title": "Mobile First Web Design",
         "description": "Responsive website following the design in Zeplin. Using Sass and Gulp for task automation.",
         "img": "./static/media/project6.png",
         "tags": [
