@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Adaptation of legacy code to React",
+        "title": "Legacy code to React",
         "description": "Web application migration to React with legacy code. Increasing the user experience with a dark mode and adding multimedia elements.",
         "img": "./static/media/project1.png",
         "tags": [
