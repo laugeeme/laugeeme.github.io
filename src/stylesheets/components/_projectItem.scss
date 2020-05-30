@@ -57,7 +57,6 @@
 
         @include forPc {
           width: 40vw;
-          
         }
       }
     }
@@ -74,7 +73,6 @@
 
       @include forPc {
         text-align: left;
-
       }
 
       & h4 {
@@ -277,7 +275,6 @@
     flex-direction: row;
     position: relative;
     left: 400px;
-    
   }
 }
 

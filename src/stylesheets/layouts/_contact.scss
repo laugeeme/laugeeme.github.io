@@ -1,6 +1,6 @@
 .contact-container {
   background-color: $fourthBgColor;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
 
@@ -126,8 +126,8 @@
   font-family: $mainFont;
   font-size: 0.7rem;
   position: relative;
-  bottom: 0px;
   width: 100%;
+
 
   @include forTablet {
     font-size: 0.9rem;
