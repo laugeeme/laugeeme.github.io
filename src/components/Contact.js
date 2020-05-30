@@ -93,9 +93,9 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div className="contact-container_copy">
-          <p>© 2020 · by laugeeme with ♡ · </p>
-        </div>
+      </div>
+      <div className="contact-container_copy">
+        <p>© 2020 · by laugeeme with ♡ · </p>
       </div>
     </footer>
   );
