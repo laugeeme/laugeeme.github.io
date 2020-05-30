@@ -33,7 +33,7 @@
 
     & p {
       font-family: $mainFont;
-      font-size: 0.6rem;
+      font-size: 0.8rem;
       margin-top: 3vh;
       text-indent: 15vw;
       text-align: justify;
@@ -48,7 +48,7 @@
       }
 
       @include forTablet {
-        font-size: 16px;
+        font-size: 1rem;
         word-spacing: 6px;
         letter-spacing: 2px;
         line-height: 1.2rem;
@@ -56,7 +56,7 @@
       }
 
       @include forPc {
-        font-size: 24px;
+        font-size: 1.2rem;
         word-spacing: 10px;
         letter-spacing: 2px;
         line-height: 1.8rem;
@@ -137,7 +137,7 @@
           }
 
           & img {
-            width: 18px;
+            width: 30px;
 
             @include forTablet {
               width: 40px;
@@ -150,7 +150,7 @@
 
           & p {
             font-weight: 700;
-            font-size: 0.4rem;
+            font-size: 0.6rem;
             text-align: center;
 
             @include forTablet {
@@ -166,9 +166,10 @@
     }
 
     & .about-container_skills__evolution {
+      padding-top:5vh;
       & img {
-        width: 80px;
-        margin-top: 8vh;
+        width: 150px;
+
 
         @include forTablet {
           width: 150px;
@@ -189,7 +190,7 @@
     & a {
       text-decoration: none;
       color: $darkFontColor;
-      font-size: 0.5rem;
+      font-size: 1.2rem;
       padding: 5px;
       border: dotted 2px $darkFontColor;
       font-weight: 600;
