@@ -125,11 +125,11 @@
           cursor: pointer;
 
           @include forTablet {
-            padding: 20px;
+            padding: 10px;
           }
 
           @include forPc {
-            padding: 30px;
+            padding: 10px;
           }
 
           &:hover {
@@ -144,7 +144,7 @@
             }
 
             @include forPc {
-              width: 55px;
+              width: 50px;
             }
           }
 
